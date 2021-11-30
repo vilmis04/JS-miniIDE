@@ -1,5 +1,40 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: monospace;
+}
+
+.wrap-all {
+  height: 100vh;
+  width: 100vw;
+}
+
+.wrap-all main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  padding: 1rem;
+}
+
+.wrap-all main section {
+  border: 1px black solid;
+  height: 100%;
+  width: 100%;
+}
+
+.wrap-all #code {
+  margin-right: 0.5rem;
+}
+
+.wrap-all #code #code-area {
+  height: 100%;
+  width: 100%;
+  border: none;
+  resize: none;
+}
+
+.wrap-all #console {
+  margin-left: 0.5rem;
 }
 /*# sourceMappingURL=styles.css.map */

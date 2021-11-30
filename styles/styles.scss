@@ -1,4 +1,34 @@
 * {
     box-sizing: border-box;
+    font-family: monospace;
 }
 
+.wrap-all {
+    height: 100vh;
+    width: 100vw;
+
+    main {
+        display: flex;
+        height: 100%;
+        padding: 1rem;
+    
+        section {
+            border: 1px black solid;
+            height: 100%;
+            width: 100%;
+        }
+    }
+    #code {
+        margin-right: 0.5rem;
+
+        #code-area {
+            height: 100%;
+            width: 100%;
+            border: none;
+            resize: none;
+        }
+    }
+    #console {
+        margin-left: 0.5rem;
+    }
+}
